@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>cn-python-foundation/README.md at master · udacity/cn-python-foundation</title>
+  <title>cn-python-foundation/install_chromedriver.md at master · udacity/cn-python-foundation</title>
     <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/1916665?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="udacity/cn-python-foundation" /><meta property="og:url" content="https://github.com/udacity/cn-python-foundation" /><meta property="og:description" content="Contribute to cn-python-foundation development by creating an account on GitHub." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjgyNjYwNDE3OmIxNmJkNTc5NWIzMTM4ODYxZjkzNzlmY2ExNDdjN2ZhNWJlNjYzNzJiNjQzOWU5ZTA0NWQwZTZjYmIwOTk4MGU=--f8a5d788a8aac0d10a52104b8644e9f9909aceaa">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjgyNjYwNDE3OmI2OTA3Y2IzMzUwYjVjOTAzMDkzOGQyNTE1ZjRjZTBiN2ViZmFiMGY1ODE5N2VkYjYxZDIyMTlmZGI5MmNlN2E=--4c35bb4722dd14f10570a2e08e61bf9d02d1731c">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="9F5F:6A81:5A913D:85693C:5B129DFC" data-pjax-transient>
+  <meta name="request-id" content="9F5F:6A81:5A9407:856D80:5B129E16" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9F5F:6A81:5A913D:85693C:5B129DFC" /><meta name="octolytics-dimension-region_edge" content="ap-southeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="39435027" /><meta name="octolytics-actor-login" content="clownjester" /><meta name="octolytics-actor-hash" content="39491309cb369af6f218a536ffa445926f4f99655fdd5066a8398723c335505d" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9F5F:6A81:5A9407:856D80:5B129E16" /><meta name="octolytics-dimension-region_edge" content="ap-southeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="39435027" /><meta name="octolytics-actor-login" content="clownjester" /><meta name="octolytics-actor-hash" content="39491309cb369af6f218a536ffa445926f4f99655fdd5066a8398723c335505d" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -67,7 +67,7 @@
     <meta name="user-login" content="clownjester">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="OGE1NDkzNjNlZTI5ZjhjODgyOWM3OWViNDI5MGQzMGE4MjAyMmVjOWUwYjA2YzIxZmEwZmFiNGU3ZmZjMDRmNnx7InJlbW90ZV9hZGRyZXNzIjoiMjE4LjEzLjE4MC4xMTQiLCJyZXF1ZXN0X2lkIjoiOUY1Rjo2QTgxOjVBOTEzRDo4NTY5M0M6NUIxMjlERkMiLCJ0aW1lc3RhbXAiOjE1Mjc5NDY3NTUsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="NmJjYzg1ZTFiNjliMGE3MmIzYjJiOWQ1MzY4MGI3Y2Y0NGFmNTU4N2I1ZjUyNWU0YjAyODAwMTk4MzczOGZiY3x7InJlbW90ZV9hZGRyZXNzIjoiMjE4LjEzLjE4MC4xMTQiLCJyZXF1ZXN0X2lkIjoiOUY1Rjo2QTgxOjVBOTQwNzo4NTZEODA6NUIxMjlFMTYiLCJ0aW1lc3RhbXAiOjE1Mjc5NDY3ODEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,DIFF_EDIT_HISTORY">
 
@@ -84,7 +84,7 @@
   <meta name="octolytics-dimension-user_id" content="1916665" /><meta name="octolytics-dimension-user_login" content="udacity" /><meta name="octolytics-dimension-repository_id" content="100691048" /><meta name="octolytics-dimension-repository_nwo" content="udacity/cn-python-foundation" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="100691048" /><meta name="octolytics-dimension-repository_network_root_nwo" content="udacity/cn-python-foundation" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/udacity/cn-python-foundation/blob/master/best%20movie/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/udacity/cn-python-foundation/blob/master/best%20movie/install_chromedriver.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -145,7 +145,7 @@
           aria-label="Search this repository"
           data-unscoped-placeholder="Search or jump to…"
           data-scoped-placeholder="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=eiWcwM53iDErqis+BpW0SKP4TnSUJnGmlVybOyBM9X70Rt6J6P9QcKE3e52DkVtSJvRqg0uqPy+qN+pA1DbhVA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=VQCfuoZJ3fbgkMmAq5msixuDohPGyUl+nVI86wSNT3nbY93zoMEFt2oNmSMunUORno+G5BlFB/eiOU2Q8PdbUw=="
           spellcheck="false"
           autocomplete="off"
           autocapitalize="off"
@@ -304,7 +304,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8YxpaGQGEB0TlUhsqA8YyrYM06QIbE+FAZBnEcBVh+KGgFvS368/n1G/99ihYlu2xy5O5Yk3XTjFNUgvI4+9DQ==" />
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zuVZKO+3/+9X9180feZBzHP600IvaAKbXqlM/O8Pfqq56WuSVB7QbRXd4IB0iwKwAthOA64zECaaDGPCDNVERQ==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -316,7 +316,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/4jBOBMa/H0X36T/l5waGuKmniy7fXxWltCSC1MV2z6IhPOCqLPT/1X1G0ue8Vlmk4QDbTombutSdb01sM/h0Q==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9ieDdWa71D13A/2QDWonBdMeVmusx4dKvQFvKuQ+2AGBK7HP3RL7vzUpQiQEB2R5ojzLKi2clfd5pEAUB+Ti7g==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -354,7 +354,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="M37jAMlKkir0pQlgpF+ALogONDsNmEGIJoaqPsvgMqardOutybD6X4xLjOAVNFRGNsQPUVw5VwGlyKnmxNtRKA==" />      <input type="hidden" name="repository_id" id="repository_id" value="100691048" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6DayVhqg5B74tgzChxVnVbM+5LhdcJeYmK3KKAbso2RwPLr7GlqMa4BYiUI2frM9DfTf0gzRgREb48nwCdfA6g==" />      <input type="hidden" name="repository_id" id="repository_id" value="100691048" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/udacity/cn-python-foundation/subscription"
@@ -434,7 +434,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/udacity/cn-python-foundation/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="J894RVJNHNOmQXDV5Ub2danKe/aSquPUxsIEhzKHKgjkm4raldXxstikkmmjNHVlop/Smxj+PrfgsjP6TcWqFA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/udacity/cn-python-foundation/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="x77btVyQIcaL6pJWfvp1kH/M8md5y3zjUmfR9WlmSDQE6ikqmwjMp/UPcOo4iPaAdJlbCvOfoYB0F+aIFiTIKA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -449,7 +449,7 @@
           33
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/udacity/cn-python-foundation/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Jtaq/vGLjR7Qv6ex0HDZoHApH9ZMoAU+siN5jZZfrk1nVcrXKg2KN9FtM+jHGakeKrqzZ2S6bhBhzgdmo9ruaQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/udacity/cn-python-foundation/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ps++EmXqENphTpgVutyMkGJ01FQoZzfslBmF0T86fFd/TN47vmwX82CcDEyttfwuOOd45QB9XMJH9Ps6Cr88cw==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -468,7 +468,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/udacity/cn-python-foundation/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4rjTSsLhVP03w88AzcG8hE8a1380hl39oUoZamgwsIQF3g4urHtpPzxVE9X8aVmhP7OEqY81GVbo/uP+/rr5lg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/udacity/cn-python-foundation/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6URgPJvasFgNog2LvbE3/Q+y0gbor46dGOLyLPZBs2QOIr1Y9UCNmgY00V6MGdLYfxuB0FMcyjZRVgi4YMv6dg==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -549,9 +549,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/udacity/cn-python-foundation/blob/4391c837afe98cccc39737aced10ba8b9e5208e8/best%20movie/README.md">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/udacity/cn-python-foundation/blob/4391c837afe98cccc39737aced10ba8b9e5208e8/best%20movie/install_chromedriver.md">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:cd6695140d5eddb80b2b71e45df17c56 -->
+  <!-- blob contrib key: blob_contributors:v21:a0ad73e39a81e1326ba0eb2ab963b556 -->
 
   <div class="file-navigation">
     
@@ -593,7 +593,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/udacity/cn-python-foundation/blob/master/best%20movie/README.md"
+               href="/udacity/cn-python-foundation/blob/master/best%20movie/install_chromedriver.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -632,12 +632,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/udacity/cn-python-foundation"><span>cn-python-foundation</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/udacity/cn-python-foundation/tree/master/best%20movie"><span>best movie</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/udacity/cn-python-foundation"><span>cn-python-foundation</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/udacity/cn-python-foundation/tree/master/best%20movie"><span>best movie</span></a></span><span class="separator">/</span><strong class="final-path">install_chromedriver.md</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/udacity/cn-python-foundation/contributors/master/best%20movie/README.md" class="commit-tease">
+  <include-fragment src="/udacity/cn-python-foundation/contributors/master/best%20movie/install_chromedriver.md" class="commit-tease">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -654,9 +654,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/udacity/cn-python-foundation/raw/master/best%20movie/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/udacity/cn-python-foundation/blame/master/best%20movie/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/udacity/cn-python-foundation/commits/master/best%20movie/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/udacity/cn-python-foundation/raw/master/best%20movie/install_chromedriver.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/udacity/cn-python-foundation/blame/master/best%20movie/install_chromedriver.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/udacity/cn-python-foundation/commits/master/best%20movie/install_chromedriver.md">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -666,13 +666,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/udacity/cn-python-foundation/edit/master/best%20movie/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1E/ce6zXJN6sdJFZpmD7e0PXt25nSV5LKb8xgnGnWJkOrm7oaAcToi+anNh/0x1oEzvRNPUt+6zGV2cYbTdV2A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/udacity/cn-python-foundation/edit/master/best%20movie/install_chromedriver.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tzYGMGraQMGbaIzKr5cXi1LHL++uBrur9epR9hk6li6x0Zme3r1CIesRlqO3Eouke8oGmycCjM9skySr4rPbzg==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/udacity/cn-python-foundation/delete/master/best%20movie/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+MQrgCrUkM8PUuGb4eFiSvtkeAcBYnmtCN/1nV3+qgyISTb1YKrz/lBcEYWg8Qv2/EPcff8dvd9nr9OfvBWjdw==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/udacity/cn-python-foundation/delete/master/best%20movie/install_chromedriver.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DEiiuyIE0SLQkSYtpqEHaYKxt8BItTorEy5HBLqsx5LvrL2G9GM5jnsIgnRMF1nsXp11xCPR+Z7u6G5PErjGNw==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -680,145 +680,54 @@
 </form>  </div>
 
   <div class="file-info">
-      148 lines (111 sloc)
+      51 lines (28 sloc)
       <span class="file-info-divider"></span>
-    6.09 KB
+    1.81 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-项目2-豆瓣上最好的电影" class="anchor" aria-hidden="true" href="#项目2-豆瓣上最好的电影"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目2 豆瓣上最好的电影</h1>
-<h2><a id="user-content-项目概述" class="anchor" aria-hidden="true" href="#项目概述"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目概述</h2>
-<p>在这个项目中, 你将会从豆瓣电影的网页中获取你最爱的三个类别，各个地区的高评分电影，收集他们的名称、评分、电影页面的链接和电影海报的链接。最后对收集的数据进行简单的统计。</p>
-<p>这个项目不会提供任何 python 代码，你应该新建文件 <code>DoubanCrawler.py</code>, 并在其中逐个完成每个任务。注意这些任务并不是并列关系，后面的任务很可能需要用到前面任务的代码或函数，前面任务的对错也很可能会影响后面任务的对错。你可能会需要多次来回修改才能完成项目。</p>
-<p>当然，即使你还没有全部完成，也可以提交项目来获取一些建议和反馈。</p>
-<h2><a id="user-content-任务1获取每个地区每个类型页面的url" class="anchor" aria-hidden="true" href="#任务1获取每个地区每个类型页面的url"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务1:获取每个地区、每个类型页面的URL</h2>
-<p>你可以从下面这个网址，按照分类和地区查看电影列表。</p>
-<pre><code>https://movie.douban.com/tag/#/?sort=S&amp;range=9,10&amp;tags=电影
-</code></pre>
-<p>分解 URL 可以看到其中包含</p>
-<ul>
-<li><code>https://movie.douban.com/tag/#/</code>: 	豆瓣电影分类页面</li>
-<li><code>sort=S</code>: 按评分排序</li>
-<li><code>range=9,10</code>: 评分范围 9 ~ 10</li>
-<li><code>tags=电影</code>: 标签为电影</li>
-</ul>
-<p>其中参数tags可以包含多个以逗号分隔的标签，你可以分别选取类型和地区来进行进一步的筛选，例如选择类型为<code>剧情</code>，地区为<code>美国</code>, 那么 URL 为</p>
-<pre><code>https://movie.douban.com/tag/#/?sort=S&amp;range=9,10&amp;tags=电影,剧情,美国
-</code></pre>
-<p>实现函数构造对应类型和地区的URL地址</p>
-<pre><code>"""
-return a string corresponding to the URL of douban movie lists given category and location.
-"""
-def getMovieUrl(category, location)
-	url = None
-	return url
-</code></pre>
-<h2><a id="user-content-任务2-获取电影页面-html" class="anchor" aria-hidden="true" href="#任务2-获取电影页面-html"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务2: 获取电影页面 HTML</h2>
-<p>获得URL后，我们可以获取 URL 对应页面的 HTML</p>
-<p>在课程中，我们使用库 <code>requests</code> get 函数。</p>
-<pre><code>import requests
-response = requests.get(url)
-html = response.text
-</code></pre>
-<p>这样的做法对大多数豆瓣电影列表页面来说没什么问题。但有些列表需要多页显示，我们需要不断模拟点击<strong>加载更多</strong>按钮来显示这个列表上的全部电影。</p>
-<p>这个任务虽然不难，但并不是课程的重点。因此我们已经为你完成了这个任务。你只需要导入我们已经写好的文件，并调用库就可以了</p>
-<pre><code>import expanddouban
-html = expanddouban.getHtml(url)
-</code></pre>
-<p>getHtml 还有两个可选参数，你 <strong>很有可能</strong> 需要传入非默认的值。</p>
-<p>要使用这个写好的函数，你需要安装 selenium 和 chromedriver，你可以参考<a href="https://github.com/udacity/cn-python-foundation/blob/master/best%20movie/install_chromedriver.md">这份指南</a></p>
-<h2><a id="user-content-任务3-定义电影类" class="anchor" aria-hidden="true" href="#任务3-定义电影类"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务3: 定义电影类</h2>
-<p>电影类应该包含以下成员变量</p>
-<ul>
-<li>电影名称</li>
-<li>电影评分</li>
-<li>电影类型</li>
-<li>电影地区</li>
-<li>电影页面链接</li>
-<li>电影海报图片链接</li>
-</ul>
-<p>同时，你应该实现电影类的构造函数。</p>
-<pre><code>name = “肖申克的救赎”
-rate = 9.6
-location = "美国"
-category = "剧情"
-info_link = "https://movie.douban.com/subject/1292052/"
-cover_link = “https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p480747492.jpg”
-
-m = Movie(name, rate, location, category, info_link, cover_link)
-</code></pre>
-<h2><a id="user-content-任务4-获得豆瓣电影的信息" class="anchor" aria-hidden="true" href="#任务4-获得豆瓣电影的信息"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务4: 获得豆瓣电影的信息</h2>
-<p>通过URL返回的HTML，我们可以获取网页中所有电影的名称，评分，海报图片链接和页面链接，同时我们在任务1构造URL时，也有类型和地区的信息，因为我们可以完整的构造每一个电影，并得到一个列表。</p>
-<p>实现以下函数</p>
-<pre><code>"""
-return a list of Movie objects with the given category and location.
-"""
-def getMovies(category, location)
-	return []
-</code></pre>
-<p>提示：你可能需要在这个任务中，使用前三个任务的代码或函数。</p>
-<h2><a id="user-content-任务5-构造电影信息数据表" class="anchor" aria-hidden="true" href="#任务5-构造电影信息数据表"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务5: 构造电影信息数据表</h2>
-<p>从网页上选取你最爱的三个电影类型，然后获取每个地区的电影信息后，我们可以获得一个包含三个类型、所有地区，评分超过9分的完整电影对象的列表。将列表输出到文件 <code>movies.csv</code>，格式如下:</p>
-<pre><code>肖申克的救赎,9.6,美国,剧情,https://movie.douban.com/subject/1292052/,https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p480747492.jpg
-霍伊特团队,9.0,香港,动作,https://movie.douban.com/subject/1307914/,https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2329853674.jpg
-....
-</code></pre>
-<h2><a id="user-content-任务6-统计电影数据" class="anchor" aria-hidden="true" href="#任务6-统计电影数据"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>任务6: 统计电影数据</h2>
-<p>统计你所选取的每个电影类别中，数量排名前三的地区有哪些，分别占此类别电影总数的百分比为多少？</p>
-<p>你可能需要自己把这个任务拆分成多个步骤，统计每个类别的电影个数，统计每个类别每个地区的电影个数，排序找到最大值，做一定的数学运算等等，相信你一定可以的！</p>
-<p>请将你的结果输出文件 <code>output.txt</code></p>
-<h2><a id="user-content-项目提交" class="anchor" aria-hidden="true" href="#项目提交"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>项目提交</h2>
-<p>在提交之前，根据项目评审标准检查你的项目。Udacity 的项目评审员会根据这个标准对你的项目给予反馈，并对你的代码给出有用的指导。</p>
-<table>
-<thead>
-<tr>
-<th>标准</th>
-<th align="left">符合要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>代码质量</td>
-<td align="left">你的代码应具有良好的结构与可读性，请遵循本课程所指出的最佳规范。</td>
-</tr>
-<tr>
-<td>不打印任何内容</td>
-<td align="left">你的代码应不会打印任何内容，而只是创建或修改两个文件 <code>movies.csv</code> 和 <code>output.txt</code></td>
-</tr>
-<tr>
-<td>完成任务1</td>
-<td align="left">实现函数<code>getMovieUrl</code></td>
-</tr>
-<tr>
-<td>完成任务2</td>
-<td align="left">通过 URL 获得豆瓣电影页面的 HTML</td>
-</tr>
-<tr>
-<td>完成任务3</td>
-<td align="left">定义电影类，并实现其构造函数</td>
-</tr>
-<tr>
-<td>完成任务4</td>
-<td align="left">通过类型和地区构造URL，并获取对应的HTML。解析 HTML 中的每个电影元素，并构造电影对象列表</td>
-</tr>
-<tr>
-<td>完成任务5</td>
-<td align="left">将电影信息输出到 <code>movies.csv</code>。 包含类别、地区以及对应的电影信息</td>
-</tr>
-<tr>
-<td>完成任务6</td>
-<td align="left">将电影的统计结果输出到 <code>output.txt</code>。包含你选取的每个电影类别中，数量排名前三的地区有哪些，分别占此类别电影总数的百分比为多少。</td>
-</tr></tbody></table>
-<p>请提交submit.zip, 包含以下文件：</p>
-<ul>
-<li>DoubanCrawler.py</li>
-<li>movies.csv</li>
-<li>output.txt</li>
-<li>不要提交其他任何文件</li>
-</ul>
-<p>注意运行 <code>python DoubanCrawler.py</code> 后，脚本应该会在同一个文件夹生成 <code>movies.csv</code> 和 <code>output.txt</code> 两个文件。</p>
+    <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-一在windows上安装" class="anchor" aria-hidden="true" href="#一在windows上安装"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>一、在windows上安装</h2>
+<h2><a id="user-content-1-安装selenium" class="anchor" aria-hidden="true" href="#1-安装selenium"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1 安装selenium</h2>
+<ol>
+<li>
+<p>启动<strong>cmd命令行</strong>（同时按住<strong>windows键</strong>和<strong>R键</strong>，在对话框内输入<em>cmd</em>，然后回车）</p>
+</li>
+<li>
+<p>安装<strong>selenium</strong>，在弹出的窗口内输入</p>
+<blockquote>
+<p>pip install selenium</p>
+</blockquote>
+</li>
+</ol>
+<h2><a id="user-content-2-下载chromedrive" class="anchor" aria-hidden="true" href="#2-下载chromedrive"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2 下载chromedrive</h2>
+<p>前往 <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads" rel="nofollow"><strong>chromedriver 下载页面</strong></a></p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/0551e7bfc6c46fba4d474545274b0d9f5867cdc1/68747470733a2f2f692e696d6775722e636f6d2f324a6f586353552e706e67"><img src="https://camo.githubusercontent.com/0551e7bfc6c46fba4d474545274b0d9f5867cdc1/68747470733a2f2f692e696d6775722e636f6d2f324a6f586353552e706e67" alt="" data-canonical-src="https://i.imgur.com/2JoXcSU.png" style="max-width:100%;"></a></p>
+<p>（如果官网下载网页无法访问，你可以访问<a href="https://cn.udacity.com" rel="nofollow"><strong>Udacity</strong></a>的<a href="https://github.com/DaemonFG/IntrotoPython-Think-Tank/blob/master/P2/ChromeDriver_Download.md"><strong>GitHub项目</strong></a>）</p>
+<p>选择最新的win版本<strong>chromedriver_win32.zip</strong></p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/399e6385637313d8e6fb98c06d1976e937fdf0f4/68747470733a2f2f692e696d6775722e636f6d2f3355426c3970442e706e67"><img src="https://camo.githubusercontent.com/399e6385637313d8e6fb98c06d1976e937fdf0f4/68747470733a2f2f692e696d6775722e636f6d2f3355426c3970442e706e67" alt="" data-canonical-src="https://i.imgur.com/3UBl9pD.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-3-解压文件" class="anchor" aria-hidden="true" href="#3-解压文件"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3 解压文件</h2>
+<p>将下载好的<strong>chromedriver_win32.zip</strong>解压后是一个exe文件，将其复制到Python安装目录</p>
+<h3><a id="user-content-注意-安装目录找不到怎么办" class="anchor" aria-hidden="true" href="#注意-安装目录找不到怎么办"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>注意 安装目录找不到怎么办</h3>
+<ol>
+<li>打开控制面板下的高级系统设置，点击<strong>环境变量</strong></li>
+</ol>
+<p><a target="_blank" href="https://camo.githubusercontent.com/a7203366f418fe8d3858fb088355f85c715d5354/68747470733a2f2f692e696d6775722e636f6d2f617859566f64572e706e67"><img src="https://camo.githubusercontent.com/a7203366f418fe8d3858fb088355f85c715d5354/68747470733a2f2f692e696d6775722e636f6d2f617859566f64572e706e67" alt="" data-canonical-src="https://i.imgur.com/axYVodW.png" style="max-width:100%;"></a></p>
+<ol start="2">
+<li>双击path,里面带python那个就是了（例如<strong>C:\Users\Big Geng\AppData\Local\Programs\Python\Python36</strong>）</li>
+</ol>
+<h2><a id="user-content-二mac版快速配置指南" class="anchor" aria-hidden="true" href="#二mac版快速配置指南"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>二、Mac版快速配置指南</h2>
+<h2><a id="user-content-1-下载同windows" class="anchor" aria-hidden="true" href="#1-下载同windows"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1 下载同Windows</h2>
+<p>前往 <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads" rel="nofollow"><strong>chromedriver 下载页面</strong></a></p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/0551e7bfc6c46fba4d474545274b0d9f5867cdc1/68747470733a2f2f692e696d6775722e636f6d2f324a6f586353552e706e67"><img src="https://camo.githubusercontent.com/0551e7bfc6c46fba4d474545274b0d9f5867cdc1/68747470733a2f2f692e696d6775722e636f6d2f324a6f586353552e706e67" alt="" data-canonical-src="https://i.imgur.com/2JoXcSU.png" style="max-width:100%;"></a></p>
+<p>（如果官网下载网页无法访问，你可以访问<a href="https://cn.udacity.com" rel="nofollow"><strong>Udacity</strong></a>的<a href="https://github.com/DaemonFG/IntrotoPython-Think-Tank/blob/master/P2/ChromeDriver_Download.md"><strong>GitHub项目</strong></a>）</p>
+<h2><a id="user-content-2-找到包含lib关键字的路径" class="anchor" aria-hidden="true" href="#2-找到包含lib关键字的路径"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2 找到包含lib关键字的路径</h2>
+<p><a target="_blank" href="https://camo.githubusercontent.com/8014cc2087dcdbc522d964b77993b8dbaa51ceeb/68747470733a2f2f692e696d6775722e636f6d2f4b61315166304b2e6a7067"><img src="https://camo.githubusercontent.com/8014cc2087dcdbc522d964b77993b8dbaa51ceeb/68747470733a2f2f692e696d6775722e636f6d2f4b61315166304b2e6a7067" alt="" data-canonical-src="https://i.imgur.com/Ka1Qf0K.jpg" style="max-width:100%;"></a></p>
+<h2><a id="user-content-3-放到跟lib同一级目录下的bin里" class="anchor" aria-hidden="true" href="#3-放到跟lib同一级目录下的bin里"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3 放到跟lib同一级目录下的bin里</h2>
+<p><a target="_blank" href="https://camo.githubusercontent.com/1c897c315b9a0b7efe39b4e4d031f6368ec79e80/68747470733a2f2f692e696d6775722e636f6d2f415557324263472e6a7067"><img src="https://camo.githubusercontent.com/1c897c315b9a0b7efe39b4e4d031f6368ec79e80/68747470733a2f2f692e696d6775722e636f6d2f415557324263472e6a7067" alt="" data-canonical-src="https://i.imgur.com/AUW2BcG.jpg" style="max-width:100%;"></a></p>
+<p>同理，如果使用pyenv，放在自己建立的环境下的bin目录中即可</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/eb0b5c1c7919dfe87f0aa154231e5ab15ff5f2a7/68747470733a2f2f692e696d6775722e636f6d2f526d38614f4c332e6a7067"><img src="https://camo.githubusercontent.com/eb0b5c1c7919dfe87f0aa154231e5ab15ff5f2a7/68747470733a2f2f692e696d6775722e636f6d2f526d38614f4c332e6a7067" alt="" data-canonical-src="https://i.imgur.com/Rm8aOL3.jpg" style="max-width:100%;"></a></p>
 </article>
   </div>
 
@@ -845,7 +754,7 @@ def getMovies(category, location)
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.35482s from unicorn-4274930822-m8wjx">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.42734s from unicorn-3760145545-tdmv6">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
